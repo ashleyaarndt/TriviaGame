@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Who Dey</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src = "assets/javascript/game.js"></script>
+    
+    
+</head>
+
+<body>
+    <header>
+        <h1>Cincinnati Bengals Trivia</h1>
+        </header>
+        
+        <div><span id="time"></span>  
+        <br>
+        <br>
+
+    <form id = "quiz" name = "trivia">
+
+        <p>Who was the original owner of the Cincinnati Bengals?</p>
+
+            <input type = "radio" id = "multiplechoice" name = "question1" value = "Dan Brown"> Dan Brown <br>
+            <input type = "radio" id = "multiplechoice" name = "question1" value = "Marvin Lewis"> Marvin Lewis <br>
+            <input type = "radio" id = "multiplechoice" name = "question1" value = "Paul Brown"> Paul Brown <br>
+            <input type = "radio" id = "multiplechoice" name = "question1" value = "Mike White"> Mike White <br>
+        
+        <p>The Cincinnati Bengals joined the NFL in what year? </p>
+
+            <input type = "radio" id = "multiplechoice" name = "question2" value = "1970"> 1970 <br>
+            <input type = "radio" id = "multiplechoice" name = "question2" value = "1968"> 1968 <br>
+            <input type = "radio" id = "multiplechoice" name = "question2" value = "1967"> 1967 <br>
+            <input type = "radio" id = "multiplechoice" name = "question2" value = "1969"> 1969 <br>
+        
+        <p>True or False? Skyline Chili is served at Paul Brown Staduim</p>
+
+            <input type = "radio" id = "truefalse" name = "question3" value = "True"> True <br>
+            <input type = "radio" id = "truefalse" name = "question3" value = "False"> False <br>
+        
+        <p>Finish the fight song: "Hear that Bengal growlin' mean and angry, here he comes a prowlin', lean and ________."</p>
+
+            <input type = "textbox" id = "fillintheblank" name = "question4"> <br>
+
+        <p>Paul Brown Staduim is often referred to as the _________.</p>
+
+            <input type = "textbox" id = "fillintheblank" name = "question5"> <br>
+
+    <br>
+    <br>    
+    <input type = "button" id = "button" value = "I'm Finished" onclick = "check();">
+    <br>
+    <br>
+    </form>
+
+    <div id = "after_submit">
+        <p id = "message"></p>
+        <p id = "number_correct"></p>
+        <img id = "images">
+    </div>
+
+
+</body>
+</html>
